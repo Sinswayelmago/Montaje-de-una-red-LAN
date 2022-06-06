@@ -47,6 +47,9 @@
     margin-top: 2.5%;
 }
 
-.texto{
-
+.texto1{
+    font-size: 40px;
+    position: absolute;
+    top: 40%;
+    left: 50%;
 }
