@@ -1,0 +1,39 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+.contenedor_padre{
+    display: flex;
+    flex-direction: column;
+}
+
+.contenedor-portada{
+    background-color: rgb(102, 98, 168);
+    width: 96rem;
+    height: 9rem;
+    
+}
+
+.texto{
+    text-align: center;
+    position: absolute;
+    left: 14%;
+    bottom: 86%;
+    color: white;
+    font-size: 38px;
+    font-family: 'Audiowide', cursive;
+    letter-spacing: 2px;
+    border-bottom: 20px;
+    -webkit-text-stroke: 0.3px black;
+}
+
+.contenedor-preguntas{
+    padding: 0%;
+    margin: 0%;
+}
+
+p{
+    text-align: center;
+    margin-top: 4%;
+}

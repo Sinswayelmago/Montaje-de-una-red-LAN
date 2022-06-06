@@ -1,0 +1,52 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+.contenedor_padre{
+    display: flex;
+    flex-direction: column;
+}
+
+.contenedor-portada{
+    background-color: rgb(102, 98, 168);
+    width: 97rem;
+    height: 9rem;
+}
+
+.texto{
+    text-align: center;
+    position: absolute;
+    left: 14%;
+    bottom: 86%;
+    color: white;
+    font-size: 38px;
+    font-family: 'Audiowide', cursive;
+    letter-spacing: 2px;
+    border-bottom: 20px;
+    -webkit-text-stroke: 0.3px black;
+}
+
+
+.caja_final{
+    width: 96rem;
+    height: 2rem;
+    background-color: rgb(255, 159, 24);
+    display: flex;
+    margin-top: 16.49%;
+}
+
+.contenedor-contenedor{
+    display: flex;
+
+}
+
+.imagen{
+    width: min-content;
+    margin-left: 18%;
+    margin-top: 2.5%;
+}
+
+.texto{
+
+}

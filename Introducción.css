@@ -1,0 +1,111 @@
+body{
+    background-color:rgb(207, 239, 239);
+    padding: 0%;
+    margin: 0%;
+}
+
+h1{
+    text-align: center;
+    position: absolute;
+    left: 14%;
+    bottom: 86%;
+    color: white;
+    font-size: 38px;
+    font-family: 'Audiowide', cursive;
+    text-shadow: 10px;
+    letter-spacing: 2px;
+    border-bottom: 20px;
+
+}
+
+h2{
+    font-size: 20px;
+
+    margin-left: 2%;
+    font-family: 'Roboto', sans-serif;
+    color: rgb(0, 0, 0);
+}
+p{
+    font-size: 16px;
+    margin-left: 2%;
+    font-family: 'Roboto', sans-serif;
+    color: rgb(0, 0, 0);
+}
+.contenedor-portada{
+    display: flex;
+    background-color: rgb(102, 98, 168);
+    margin-left: 11.53%;
+    width: 84.15rem;
+    height: 9rem;
+    -webkit-text-stroke: 0.3px black;
+}
+
+.contenido_padre{
+    padding: 0px;
+    margin: 0px;
+}
+
+.contenedor-seccion{
+    margin: 0%;
+    padding: 5%;
+    display: flex;
+    flex-direction: column;
+    background-color: whitesmoke;
+    margin-left: 11.53%;
+}
+
+.contenedor-1{
+    margin: 0%;
+    padding: 5%;
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(218, 236, 240);
+    margin-left: 11.53%;
+}
+
+.contenedor-2{
+    margin: 0%;
+    padding: 5%;
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(190, 229, 238);
+    margin-left: 11.53%;
+}
+
+.contenedor-3{
+    margin: 0%;
+    padding: 5%;
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(141, 219, 236);
+    margin-left: 11.53%;
+}
+
+.contenedor-4{
+    margin: 0%;
+    padding: 5%;
+    display: flex;
+    flex-direction: column;
+    background-color: whitesmoke;
+    margin-left: 11.53%;
+}
+
+.contenedor-5{
+    margin: 0%;
+    padding: 5%;
+    display: flex;
+    flex-direction: column;
+    background-color: whitesmoke;
+    margin-left: 11.53%;
+}
+
+
+.seccion-titulo{
+    margin-right: 10%;
+}
+
+.seccion-texto{
+    margin-left: 20%;
+    
+}
+/*********************FIN_VERIFICACIÓN_RED*******************/

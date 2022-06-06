@@ -1,0 +1,35 @@
+/**************************BARRA_NAVEGADORA************************/
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+
+.sidebar{
+    width: 11.5%;
+    height: 100vh;
+    background: #334e6a;
+    position: fixed;
+}
+
+.sidebar ul li{
+    color: white;
+    text-align: center;
+    list-style: none;
+    border-bottom: 1px solid white;
+    padding: 20px 78px;
+}
+
+.sidebar li a{
+    text-decoration: none;
+    list-style: none;
+    color: white;
+}
+
+ul li :hover{
+    color: rgb(137, 245, 42);
+}
+
+
+
+/***************************FIN_DE_BARRA_NAVEGADOR**********************************/

@@ -1,0 +1,52 @@
+body{
+    padding: 0px;
+    margin: 0px;
+}
+.content-sections{
+    display: flex;
+
+}
+
+.imagen_{
+    display: flex;
+    padding: 0px;
+    
+}
+
+.imagen_contenido{
+    width: 101.75%;
+    height: 101.75%;
+}
+
+.texto{
+    position: absolute;
+    display: inline;
+    align-items: center;
+    top: 135px;
+    left: 11.9%;
+    font-size: 33px;
+    padding: 2px 20px;
+    font-family: 'Audiowide', cursive;
+    letter-spacing: 8px;
+    border-radius: 40px;
+    text-shadow: 10px;
+    color:rgb(32, 97, 158);
+    -webkit-text-stroke: 0.5px white;
+    animation: mover 1850ms linear;
+    animation-delay: 0s;
+}
+
+@keyframes mover{
+    100%{
+        transform: translateX(0px);
+        
+        left: 11.9%;
+        webkit-text-stroke: none;
+    }
+
+    0%{
+        transform: translateX(100px);
+        left: 9%;
+        color: transparent;
+    }
+}

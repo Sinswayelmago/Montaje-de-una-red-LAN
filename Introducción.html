@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <link rel="stylesheet" href="Introducción.css">
+    <link rel="stylesheet" href="sidebar.css">
+    <link rel="stylesheet"
+        href="https://fonts.sandbox.google.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0" />
+    <link rel="stylesheet"
+        href="https://fonts.sandbox.google.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+    <link rel="stylesheet"
+        href="https://fonts.sandbox.google.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0" />
+    
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Audiowide&display=swap');
+        </style>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+        </style>
+</head>
+<body>
+<div class="contenedor_padre">
+
+        <!------------------------BARRA_NAVEGADORA!------------------------------------>
+    <navbar class="sidebar">
+
+        <ul>
+            <li> <a href="Indice.html"><span class="material-symbols-outlined">
+                            home
+                        </span></a>
+            </li>
+
+            <li><a href="Introducción.html"><span class="material-symbols-outlined">
+                            auto_stories
+                        </span></a>
+            </li>
+            <li><a href="Elaboracion.html"><span class="material-symbols-outlined">
+                            edit
+                        </span></a>
+            </li>
+            <li> <a href="Presupuesto.html"><span class="material-symbols-outlined">
+                            shopping_cart_checkout
+                        </span></a>
+            </li>
+            <li> <a href="Quienes_somos.html"><span class="material-symbols-outlined">
+                    group
+                    </span></a> 
+            </li>
+            <li><a href="Preguntas.html"><span class="material-symbols-outlined">
+                question_mark
+                </span></a></li>
+        </ul>
+    </navbar>
+
+        <!-------------------------FIN_BARRA_NAVEGADORA!---------------------------------->
+
+
+
+
+    <!------------------------------PRESENTACION------------------------------------------>
+        <div class="contenedor-portada">
+        <h1>Introducción proyecto</h1>
+        </div>
+
+    <div class="contenedor-seccion">
+        <div class="contenedor-subseccion"></div>
+            <div class="seccion-titulo">
+                <h2>Presentación del proyecto</h2>
+                <br>
+            
+            </div>
+
+            <div class="seccion-texto">
+               <p> En este apartado veremos lo que necesitamos para poder empezar con nuestro
+                proyecto de redes. <br> Vamos a seguir una estructura  en la que podremos ver paso a paso lo que tenemos que hacer y <br>
+                en el apartado de "Elaboracion proyecto" encontraremos como ejecutar estos pasos y los fallos <br> que hemos ido encontrando.
+                </p>
+            </div>
+    </div>
+
+
+    <!------------------------------MONTAJE--------------------------------------------->
+    <div class="contenedor-1">
+        <div class="contenedor-subseccion"></div>
+            <div class="seccion-titulo">
+                <h2>Montaje fisico</h2>
+                <br>
+            
+            </div>
+
+            <div class="seccion-texto">
+                <p>Primero, se harán las canalizaciones, montando las canaletas con sus respectivos enchufes.
+                <br>
+                <br>
+                        Dispondremos de switches y un rack para enlazar y hacer funcionar esta red y crear una red local <br> ademas de poner 
+                        una boca RJ45 cada 50 cm.
+                <br>
+                <br>
+                        Etiquetar los racks y switches para no equivocarnos de donde irán nuestros cables para nuestra red.
+                </p>
+            </div>
+    </div>
+
+
+<!------------------------------CONFIGURACION------------------------------------------>
+
+    <div class="contenedor-2">
+        <div class="contenedor-subseccion2"></div>
+            <div class="seccion-titulo">
+                <h2>Configuración de la red</h2>
+                <br>
+            
+            </div>
+
+            <div class="seccion-texto">
+                <p><b><u>Parametros de configuración</u> </b></p>
+                <br>
+                <p>
+                La red se configurara de manera manual, es decir en estático.
+
+                    Se cambiará el nombre a los equipos <br> como por ejemplo “windows-04-alba”.
+                    <br>
+                    <br>
+                    Reiniciar y configurar las direcciónes IP en estático.
+                    <br>
+                    <br>
+                    La puerta de enlace se dejará en blanco de momento y la dirección la dará el profesorado.
+                    <br>
+                    <br>
+                    <u><b>Parámetros</b></u>
+                    <br>
+                    <br>
+                    Dirección: 192.168.X.X
+                    <br>
+                    Máscara de subred: 255.255.0.0
+                    <br>
+                    DNS 1: 8.8.8.8
+                    <br>
+                    DNS 2: 8.8.4.4
+
+                    </p>
+            </div>
+    </div>
+
+
+<!------------------------------VERIFICACIÓN------------------------------------------>
+
+    <div class="contenedor-3">
+        <div class="contenedor-subseccion"></div>
+            <div class="seccion-titulo">
+                <h2>Comprobación de red</h2>
+                <br>
+            
+            </div>
+
+            <div class="seccion-texto">
+                <p><b>Verificación de red</b></p>
+                <p class="texto_verifi_descripción">
+       
+                Utilizaremos dos comandos para comprobar que la red funciona correctamente.
+                <br>
+                <br>
+                <b>Ipconfig:</b> Es el que nos mostrará los parámetros de cada PC si está bien configurado.
+                <br>
+                <br>
+                <b>Ping:</b> Nos permite mandar paquetes de un PC host a un PC destino para comprobar <br>
+                si la conexión se establece correctamente.
+                </p>
+            </div>
+    </div>
+
+</div>    
+</body>
+</html>
