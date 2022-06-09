@@ -102,8 +102,9 @@ h5{
     text-align: center;
     overflow: hidden;
     cursor: pointer;
+    width: 800px;
+    margin: 0 auto;
     margin-top: 5%;
-    margin-left: 6.5%;
   }
   
   .slides {
