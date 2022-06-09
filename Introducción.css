@@ -87,17 +87,10 @@ p{
     padding: 5%;
     display: flex;
     flex-direction: column;
-    background-color: whitesmoke;
+    background-color: rgb(71, 205, 236);
     margin-left: 11.53%;
 }
 
-.contenedor-5{
-    margin: 0%;
-    padding: 5%;
-    display: flex;
-    flex-direction: column;
-    background-color: whitesmoke;
-    margin-left: 11.53%;
 }
 
 

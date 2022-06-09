@@ -68,13 +68,113 @@
 
     <div class="contenedor-preguntas">
         <section>
-            <p>¿CUANTAS POLLLAS ME TENGO QUE COMER PARA QUE ME GUSTE?</p>
+
+            <p class="principio"><u>Al router hi ha dos ports WLAN. Per a que serveixen? Com se configuren?</u></p>
+            <p>Són els ports per on el nostre encaminador obté els serveis del nostre ISP (operador d'Internet), és a dir, són els
+                ports per on ens connectem a Internet. // Abans d'obrir els  
+            </p>
+            <p>ports d'un encaminador, és necessari configurar el nostre ordinador amb una adreça IP estàtica o fixa de manera que aquesta IP pertanyi sempre al mateix
+                ordinador ja que, </p>
+            <p> en cas contrari, si un altre ordinador s'assigna aquesta IP els ports s'obriran per a ell i no per a nosaltres.
+            </p>
+            <br>
+            <p>Podem configurar l'adreça IP fixa de dues formes diferents:
+            </p>
+            <br>
+            <p>- Configurant la IP manualment en Windows o el nostre sistema operatiu.</p>
+            <br>
+            <p>- Configurant el servidor DHCP de l'encaminador perquè sempre assigni la mateixa IP a una MAC, en el nostre cas, la del nostre PC.
+            </p>
+            <br>
+            <p>Una vegada que tenim la IP fixa del nostre encaminador, ja podem anar a obrir els ports.
+            </p>
+            <br>
+            <p>El procés pot variar segons cada model d'encaminador però explicarem el procés general aplicable a la majoria de dispositius del mercat.
+            </p>
+            <br>
+            <p>El primer que farem serà entrar en la configuració de l'encaminador a través de la porta d'enllaç i iniciar sessió en ell. Una vegada dins, l'aparença</p>
+            <p>de cada model i versió de microprogramari variarà, però hem de buscar l'apartat «Port Forwarding«, en el qual configurarem les reexpedicions de ports.
+            </p>
+            <br>
+            <p>Podrem veure que en la part superior tenim un apartat des del qual introduirem les dades del port i l'equip on el volem obrir i en la part inferior un resum amb els ports ja oberts.
+            </p>
+            <br>
+            <p>Encara que els apartats poden variar, les dades que necessitarem introduir per a obrir els ports són:
+            </p>
+            <br>
+            <p>- Nom: Nom que donarem a la regla.
+            </p>
+            <br>
+            <p>- Adreça IP WAN des de la qual es redirigiran les dades. En blanc per a reexpedir el trànsit de totes les IPs.
+            </p>
+            <br>
+            <p>- Port WAN inicial: Primer port.
+            </p>
+            <br>
+            <p>- Port WAN final: Últim port del rang, encara que si obrim un només serà el mateix.
+            </p>
+            <br>
+            <p>- Port LAN inicial: Igual que en el port WAN.
+            </p>
+            <br>
+            <p>- Port LAN final: Igual que en el port WAN.
+            </p>
+            <br>
+            <p>- Adreça IP de la LAN: Adreça IP local a la qual es reexpediran els ports configurats.
+            </p>
+            <br>
+            <p>Una vegada configurat el port i la IP per a la qual el volem obrir, apliquem els canvis i ja hauria de funcionar correctament, no obstant això, sempre és recomanable reiniciar 
+            </p>
+            <p>l'encaminador perquè els canvis s'apliquin correctament.</p>
+        </section>
+    </div>
+
+
+    <div class="contenedor-preguntas">
+        <section>
+
+            <p class="principio"><u>Què és el mirroring? Es pot fer en el switch? Com?</u></p>
+            <p>El mirroring és un procés que s'utilitza en un switch de xarxa o en un encaminador per a enviar una còpia dels paquets de xarxa
+                vists en els ports especificats  </p>
+            <p>(ports d'origen) a altres ports especificats (ports de destinació). En habilitar la duplicació de ports, els paquets poden ser monitorats i analitzats. 
+                La duplicació de ports es 
+            </p>
+            <p>pot aplicar per a analitzar i depurar dades o diagnosticar errors en les xarxes sense afectar les capacitats de processament de paquets en els dispositius de xarxa.
+            </p>
+            <br>
+            <p>Per a configurar-ho el primer que hem de fer és anar-nos a Monitoring > Mirror Settings. En aquest menú «Mirror Settings» és on tindrem la possibilitat</p>
+            <p>de seleccionar el destí de tots els paquets, entrants, sortints o tots dos alhora, així com els ports de l'origen del trànsit.
+            </p>
+            <br>
+            <p>Per exemple, podem utilitzar el port eth1 com a destí de tots els paquets, i que tots els equips connectats entre els ports eth2 i eth0 actuïn com a origen.
+            </p>
+            <br>
+            <p>Gràcies a aquesta configuració i a la funció de mirroring, si posem un analitzador de paquets escoltant en el port eth1, podrem capturar tot
+                el que passi pels ports del 2 al 8 
+            </p>
+            <p>de manera fàcil i ràpida, sense haver de fer ARP Spoofing dels diferents PC ni cap altra tècnica per a analitzar el trànsit.
+            </p>
+            <br>
+            <p>Si clickam en l'opció de Mirror Settings veurem el número de la sessió i la configuració que haguem realitzat. Aquesta funció de mirroring ens servirà  de molta ajuda quan  </p>
+            <p>necessitem analitzar el trànsit de la xarxa professional per a detectar possibles fallades de configuració, trànsit possiblement maliciós etc.
+            </p>
         </section>
     </div>
 
     
     
+    <div class="contenedor-preguntas">
+        <section>
 
+            <p class="principio"><u>Quin mode de seguretat és el més recomanable, WEP, WPA o WPA2? Per què?</u></p>
+            <p>El mode de seguretat més recomanable és el WPA2. // El seu principal progrés respecte a l'anterior protocol va venir quant a l'ús</p>
+            <p>de AES (Advanced Encryption Standard), que va arribar a utilitzar-se per a xifrar informació classificada del govern nord-americà, demostrant així la seva aptitud per a </p>
+            <p>protegir xarxes domèstiques. No obstant això, aquest protocol també ha aconseguit vulnerar-se, posant de manifest la necessitat d'un algorisme més avançat. Les </p>
+            <p>principals vulnerabilitats d'aquest sistema tenen el seu focus en l'àmbit empresarial, no tant en les xarxes domèstiques, però les possibilitats d'atacs continuen sent
+            </p>
+            <p class="final"> presents i són un risc real.</p>
+        </section>
+    </div>
 
 
 
