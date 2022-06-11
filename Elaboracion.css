@@ -130,8 +130,8 @@ h5{
   scroll-snap-align: start;
   flex-shrink: 0;
   /* Cambiar tamaño imágenes */
-  width: 350px;
-  height: 350px;
+  width: 1376px;
+  height: 768px;
   /* ----- */
   margin-right: 50px;
   border-radius: 10px;
