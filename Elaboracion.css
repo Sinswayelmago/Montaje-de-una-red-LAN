@@ -102,9 +102,10 @@ h5{
   text-align: center;
   overflow: hidden;
   cursor: pointer;
-  margin-left: 15%;
-  margin-top: 5%;
-  margin-right: 12%;
+  margin-left: 10%;
+  margin-top: 3%;
+  width: 976px;
+  height: 568px;
 }
 
 .slides {
@@ -130,8 +131,8 @@ h5{
   scroll-snap-align: start;
   flex-shrink: 0;
   /* Cambiar tamaño imágenes */
-  width: 1376px;
-  height: 768px;
+  width: 976px;
+  height: 468px;
   /* ----- */
   margin-right: 50px;
   border-radius: 10px;
