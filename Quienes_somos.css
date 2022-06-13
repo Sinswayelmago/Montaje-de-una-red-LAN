@@ -49,7 +49,7 @@
     display: flex;
     flex-direction: column;
     position: absolute;
-    bottom: 29%;
+    bottom: 28%;
     left: 14%;
     font-size: 17px;
     font-family: 'Audiowide', cursive;
@@ -76,8 +76,8 @@
 .contenedor-imagenes{
     display: flex;
     margin-left:14%;
-    margin-top: 4rem;
-    margin-bottom: 3rem;
+    margin-top: 5%;
+    margin-bottom: 5%;
 }
 
 .imagen1{
